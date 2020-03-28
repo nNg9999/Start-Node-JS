@@ -1,0 +1,55 @@
+{
+  "name": "start_node_js",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --env.mode development",
+    "build": "webpack --env.mode production",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist -b hw1 -git "
+  },
+  "homepage": "https://nNg9999.github.io/Start-Node-JS/tree/hw1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nNg9999.github.io/Start-Node-JS.git"
+  },
+  "author": "Mykola Zhelinskyi <mykola.zhelinskyi@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": " https://github.com/nNg9999/"
+  },
+  "description": "",
+  "dependencies": {
+    "handlebars": "^4.7.3",
+    "handlebars-loader": "^1.7.1",
+    "postcss": "^7.0.27",
+    "postcss-cli": "^7.1.0",
+    "shortid": "^2.2.15"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/preset-env": "^7.9.0",
+    "autoprefixer": "^9.7.5",
+    "babel-loader": "^8.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.4.2",
+    "file-loader": "^6.0.0",
+    "friendly-errors-webpack-plugin": "^1.7.0",
+    "gh-pages": "^2.2.0",
+    "html-loader": "^1.0.0",
+    "html-webpack-plugin": "^4.0.2",
+    "mini-css-extract-plugin": "^0.9.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "postcss-loader": "^3.0.0",
+    "style-loader": "^1.1.3",
+    "url-loader": "^4.0.0",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3",
+    "webpack-merge": "^4.2.2",
+    "webpackbar": "^4.0.0"
+  }
+}

@@ -22,7 +22,7 @@
   "description": "",
   "dependencies": {
     "handlebars": "^4.7.3",
-    "handlebars-loader": "^1.7.1",
+    "handlebars-loader": "^1.7.3",
     "postcss": "^7.0.27",
     "postcss-cli": "^7.1.0",
     "shortid": "^2.2.15"
